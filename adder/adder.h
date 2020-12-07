@@ -15,7 +15,7 @@
 extern "C" {
 #endif
 
-void canvas_add(double *canvas, double *addon, uint64_t count);
+double canvas_add(double *canvas, double *addon, uint64_t count);
 
 #ifdef __cplusplus
 };
