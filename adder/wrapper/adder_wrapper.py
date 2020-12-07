@@ -2,8 +2,8 @@ import ctypes
 
 import numpy as np
 
-
 lib: ctypes.CDLL = ctypes.cdll.LoadLibrary("./cmake-build-release/libadder.so")
+
 
 def add(canvas: np.ndarray, addon: np.ndarray):
     if not (canvas.flags.c_contiguous and addon.flags.c_contiguous):
