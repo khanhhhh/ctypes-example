@@ -7,7 +7,7 @@ def main():
     addon: np.ndarray = np.random.random(2).astype(np.float64)
     print(canvas)
     print(addon)
-    adder.add(canvas, addon)
+    adder.canvas_add(canvas, addon)
     print(canvas)
 
 
