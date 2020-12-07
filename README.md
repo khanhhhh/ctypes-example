@@ -1,6 +1,6 @@
 # ctypes-example
 
-## Installation
+## Build
 
 ```sh
 mkdir cmake-build-release
